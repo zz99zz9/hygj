@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*--------Designers: YK-Dream------*/
+/*--------QQ: 345669842-----------*/
+/*--------Time: 2013/05/24-------*/
+
+/*banner*/
+
+#content .leftContent{ float:left; margin-top:15px;}
+.leftContent .caseList{ width:730px;}
+.leftContent h2{ font-size:16px; color:#8dae2d; line-height:2;}
+.leftContent h2 strong{ color:#ccc; font-size:12px; margin-left:12px;}
+.leftContent .caseList ul{ float:left; margin-top:5px; overflow:hidden;}
+.leftContent .caseList ul li{ width:227px; float:left; display:inline; margin-right:15px;}
+.leftContent .caseList ul li a:hover{ text-decoration:underline;}
+.leftContent .caseList ul li h3{ font-size:14px; line-height:2;}
+.leftContent .caseList ul li p{ line-height:150%; color:#999;}
+.leftContent .class{ margin-top:10px; width:730px;}
+.leftContent .class .classInfor{ line-height:20px; margin-top:8px;}
+.leftContent .class .classInfor img{ float:left; margin:0 15px 5px 0;}
+.leftContent .class .classInfor h3{ font-size:14px; padding-bottom:5px; font-weight:bold; }
+.leftContent .class .classInfor .record{ width:470px;font-size: 12px; margin-top:5px; line-height: 20px; overflow: hidden; color:#999;}
+.leftContent .class .classInfor .record a{ color:#8dae2d}
+.leftContent .class .classInfor ul{ width:470px; overflow:hidden; line-height:200%; margin-top:15px;}
+.leftContent .class .classInfor ul li{ width:100%;}
+.leftContent .class .classInfor ul li a{ display:block; position:relative;}
+.leftContent .class .classInfor ul li a:hover{ text-decoration:underline;}
+.leftContent .class .classInfor ul li a span{ color:#999; position:absolute; right:0; z-index:99;}
+.leftContent .class .classInfor ul li a em{ color:#8dae2d; margin-right:5px;}
+.leftContent .class .classInfor ul .more a{ background:#a9cf37; padding:1px 5px; margin-top:10px; width:60px; text-align:center; float:right; font-size:11px;}
+
+.caseList h2{ position:relative; width:710px;}
+.caseList h2 .more{ background:#a9cf37; padding:1px 5px; width:60px; text-align:center; font-size:11px; position:absolute; right:0; bottom:5px; z-index:999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+/*
+ * YK-Dream QQ345669842
+ * Time:2013/5/27
+ */
+
+.blueberry { margin: 10px auto 0; position:relative; }
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+	position:absolute;
+	z-index:99;
+	bottom:0;
+	width:40%;
+	left:50%;
+	margin-left:-5%;
+}
+.blueberry .pager li { display: inline-block; float:left; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height:10px; 
+	cursor:pointer;
+	width:10px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+	-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #f5821e; }

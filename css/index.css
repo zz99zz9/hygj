@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*--------Designers: YK-Dream------*/
+/*--------QQ: 345669842-----------*/
+/*--------Time: 2013/05/24-------*/
+
+/*banner*/
+
+#content .leftContent{ float:left; margin-top:15px;}
+.leftContent .caseList{ width:1200px;}
+.leftContent h2{ font-size:16px; color:#8dae2d; line-height:2;}
+.leftContent h2 strong{ color:#ccc; font-size:12px; margin-left:12px;}
+.leftContent .caseList ul{ float:left; margin-top:5px; overflow:hidden;}
+.leftContent .caseList ul li{ width:227px; float:left; display:inline; margin-right:15px;}
+.leftContent .caseList ul li a:hover{ text-decoration:underline;}
+.leftContent .caseList ul li h3{ font-size:14px; line-height:2;}
+.leftContent .caseList ul li p{ line-height:150%; color:#999;}
+.leftContent .class{ margin-top:10px; width:1200px;}
+.leftContent .class .classInfor{ line-height:20px; margin-top:8px;}
+.leftContent .class .classInfor img{ float:left; margin:0 15px 5px 0;}
+.leftContent .class .classInfor h3{ font-size:14px; padding-bottom:5px; font-weight:bold; }
+.leftContent .class .classInfor .record{ width:670px;font-size: 12px; margin-top:5px; line-height: 20px; overflow: hidden; color:#999;}
+.leftContent .class .classInfor .record a{ color:#8dae2d}
+.leftContent .class .classInfor ul{ width:670px; overflow:hidden; line-height:200%; margin-top:15px;}
+.leftContent .class .classInfor ul li{ width:100%;}
+.leftContent .class .classInfor ul li a{ display:block; position:relative;}
+.leftContent .class .classInfor ul li a:hover{ text-decoration:underline;}
+.leftContent .class .classInfor ul li a span{ color:#999; position:absolute; right:0; z-index:99;}
+.leftContent .class .classInfor ul li a em{ color:#8dae2d; margin-right:5px;}
+.leftContent .class .classInfor ul .more a{  padding:1px 5px; margin-top:10px; width:101px; text-align:center; float:right; font-size:11px;}
+
+.caseList h2{
+	position: relative;
+	width: 1200px;
+}
+.caseList h2 .more{  padding:1px 5px; width:101px; text-align:center; font-size:11px; position:absolute; right:0; bottom:5px; z-index:999;}
+.class h2{
+	position: relative;
+	width: 1200px;
+}
+.class h2 .more{  padding:1px 5px; width:101px; text-align:center; font-size:11px; position:absolute; right:0; bottom:5px; z-index:999;}
+
+
+#content .leftContent2{ float:left; margin-top:15px;}
+.leftContent2 .caseList{ width:1200px;margin-bottom:15px;}
+.leftContent2 h2{ font-size:16px; color:#8dae2d; line-height:2;}
+.leftContent2 h2 strong{ color:#ccc; font-size:12px; margin-left:12px;}
+.leftContent2 .caseList ul{ float:left; margin-top:5px; overflow:hidden;}
+.leftContent2 .caseList ul li{ width:386px; float:left; display:inline; margin-right:14px;}
+.leftContent2 .caseList ul li a:hover{ text-decoration:underline;}
+.leftContent2 .caseList ul li h3{ font-size:14px; line-height:2;}
+.leftContent2 .caseList ul li p{ line-height:150%; color:#999;}
+.leftContent2 .class{ margin-top:10px; width:1200px;}
+.leftContent2 .class .classInfor{ line-height:20px; margin-top:8px;}
+.leftContent2 .class .classInfor img{ float:left; margin:0 15px 5px 0;}
+.leftContent2 .class .classInfor h3{ font-size:14px; padding-bottom:5px; font-weight:bold; }
+.leftContent2 .class .classInfor .record{ width:670px;font-size: 12px; margin-top:5px; line-height: 20px; overflow: hidden; color:#999;}
+.leftContent2 .class .classInfor .record a{ color:#8dae2d}
+.leftContent2 .class .classInfor ul{ width:670px; overflow:hidden; line-height:200%; margin-top:15px;}
+.leftContent2 .class .classInfor ul li{ width:100%;}
+.leftContent2 .class .classInfor ul li a{ display:block; position:relative;}
+.leftContent2 .class .classInfor ul li a:hover{ text-decoration:underline;}
+.leftContent2 .class .classInfor ul li a span{ color:#999; position:absolute; right:0; z-index:99;}
+.leftContent2 .class .classInfor ul li a em{ color:#8dae2d; margin-right:5px;}
+.leftContent2 .class .classInfor ul .more a{ background:#a9cf37; padding:1px 5px; margin-top:10px; width:60px; text-align:center; float:right; font-size:11px;}
+.sl{font-size:18px;font-weight:bold;color:#666;text-align:right;height:10px;}
+.sl span{color:#FF9B0D;font-weight:bold;}
+.list_lh{width:350px;height:217px;border-top:5px #999999 solid;background:#8BCE29;padding-left:20px;color:#FFF;line-height:200%;float:left;}
+.list_lh ul{margin:5px auto 5px auto;}
+.list_lh ul li{font-size:13px;}
+.list_right{width:800px;float:right;margin-top:-20px;margin-left:0px;}

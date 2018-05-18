@@ -1,0 +1,19 @@
+html, body { width: 100%; height: 100%; }
+
+#content { position: absolute; top: 50%; left: 50%; z-index: 2; padding: 15px; line-height: 1.5em; color: #EB852A; font-family: sans-serif; font-size: 14px; background-color: #fff; width:587px; margin-top:-140px; height:258px; margin-left:-294px; border-radius: 5px; -webkit-box-shadow:0 0 10px #d3d3d3; -moz-box-shadow:0 0 10px #d3d3d3; box-shadow:0 0 10px #ccc; opacity: 0.8; font-family: 'microsoft yahei', Arial, sans-serif; }
+#content h1 { line-height: 2em; font-size:16px; }
+#content .loginArea { border-top:1px solid #ccc; margin-top:1em; }
+#content .loginArea .login_form { margin-top:20px; }
+#content .loginArea h2 { float:left; width:285px; height:201px; background:url(../../images/login/logo.gif) no-repeat 0 0; }
+#content .loginArea .uinArea { height: 55px; position: relative; z-index: 10; }
+.loginArea .input_tips, .loginArea .input_tips_focus { color: #aaa; cursor: text; font-size: 14px; left: 13px; line-height: 16px; position: absolute; top: 13px; }
+.loginArea .pwdArea { height: 55px; position: relative; z-index: 3; }
+.loginArea .login_form { margin: 0 auto; width: 272px; float:left; }
+.loginArea .inputOuter { background: url(../../images/login/icon_2.png) no-repeat -1px -1px; height: 42px; width: 272px; }
+.loginArea .inputOuter_focus { background: url(../../images/login/icon_2.png) no-repeat -1px -45px; height: 42px; width: 272px; }
+.loginArea .inputstyle { background: none repeat scroll 0 0 transparent; border: medium none; color: #333333; font-family: Verdana, Tahoma, Arial; font-size: 16px; height: 18px; ime-mode: disabled; left: 2px; line-height: 18px; padding: 11px 0 11px 10px; position: relative; top: 2px; width: 258px; }
+.loginArea .submit { height: 40px; position: relative; }
+.loginArea .login_button { left: 0; outline: medium none; position: absolute; }
+.loginArea .login_button .btn { background: url(../../images/login/icon_2.png) no-repeat scroll 0 -90px; border: medium none; color: #fff; cursor: pointer; font-size: 18px; font-weight: bold; height: 35px; line-height: 35px; width: 115px; }
+.loginArea .login_button:hover .btn { background-position: -116px -90px; }
+.loginArea .login_button:hover { text-decoration: none; }

@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*--------Designers: YK-Dream------*/
+/*--------QQ: 345669842-----------*/
+/*--------Time: 2013/05/24-------*/
+
+#content{ margin:0 auto 25px auto; width:980px;}
+.blueberry{ width:100%; margin-top:10px;}
+.center{ text-align:center}
+.crumbs{ line-height:180%; border-bottom:1px solid #ddd; width:100%; text-indent:12px; height:35px; line-height:35px; margin-top:5px;}
+.crumbs em{ font-family:"宋体"; margin:auto 5px; color:#ccc;}
+.crumbs span{ color:#999;}
+.colorC{color:#999}
+.mgt10{ margin-top:10px;}
+.fl{ float:left;}
+.fr{ float:right;}
+.but{ margin-left:155px; margin-top:20px; float:left}
+.but .submit{ width:120px; height:35px; line-height:35px; text-align:center; background:#a7ce39; color:#fff; border:none; cursor:pointer;}
+.but .submit:hover{ background:#95b734;}
+
+/*翻页*/
+.page{ width:100%; text-align:center; height:35px; line-height:35px; border-top:1px solid #ddd; padding-top:10px; margin-top:20px; }
+.page .page-list{ float:right;}
+.page .page-list a{ float:left; display:inline; margin-right:10px; background:url(../../images/newimg/sprites.png) no-repeat -137px 0; width:35px; height:29px; overflow:hidden;}
+
+.page .page-list span{ float:left; display:inline; margin-right:10px; background:url(../../images/newimg/sprites.png) no-repeat -137px 0; width:35px; height:29px; overflow:hidden;}
+
+.page .page-list a.page-pre,.page a.page-next{ width:35px; height:29px; overflow:hidden; background:url(../../images/newimg/sprites.png) no-repeat; text-indent:-9999px;}
+.page .page-list a.page-pre{ background-position: -45px 0;}
+.page .page-list a.page-pre:hover{ background-position: -45px -29px;}
+.page .page-list a.page-next{ background-position: -91px 0;}
+.page .page-list a.page-next:hover{ background-position: -91px -29px;}
+.page .page-list a.return{ width:70px; height:29px; text-align:center; line-height:29px; background:url(../../images/newimg/sprites.png) no-repeat -137px 0;}
+.page .page-list a.return:hover,.page .page-list a.current{ background:url(../../images/newimg/sprites.png) no-repeat -137px -29px; color:#fff;}
+/*分享*/
+.page .bshare-custom{ float:left;}
+
+
+#mainBg{ background:#fff;}
+#main{ width:980px; margin:0 auto; background:#fff; padding:0 10px;}
+#logoAera{ width:100%; overflow:hidden;}
+#logoAera h1{ width:237px; height:99px; margin:0 auto; background:url(../../images/newimg/logo.png) no-repeat 0 0; text-indent:-9999px; zoom:1}
+#logoAera .tools{line-height:2; width:100%; text-align:right;}
+#logoAera .tools em{ margin:0 5px; color:#999;}
+
+/*navigation*/
+#navigation{ background:#5f5f5f;}
+#navigation ul{ background:url(../../images/newimg/navBG2.jpg) repeat-x 0 0; float:left; width:100%;}
+#navigation ul li{ float:left;/* background:url(../../images/newimg/libg.png) no-repeat left top;*/ border-right:1px solid #8a8a8a; height:35px; line-height:35px;}
+#navigation ul li a{ display:block; padding:0 30px; font-size:14px; color:#333333; border-right:1px solid #ffffff}
+#navigation ul li a:hover,#navigation ul li a.current{ background:#8a8a8a; border-right:1px solid #333333; text-decoration:none;}
+
+.gardenConetnt{ margin-right:18px; width:710px; line-height:180%;}
+.gardenConetnt h4{ font-size:14px; font-weight:bold; margin-top:20px;}
+.gardenConetnt p{ margin-top:10px;}
+#content .rightContent{ float:right; margin-top:15px;}
+#content .rightContent p{ margin-bottom:10px;}
+
+.case ul li{ margin-bottom:30px;}
+
+/*详情*/
+.detail{ width:710px;}
+.detail h3{ position:relative; margin-bottom:20px; font-size:18px; height:35px; line-height:35px; padding-bottom:5px; text-align:center; border-bottom:1px dashed #ccc;}
+.detail h3 span{ position:absolute; right:0; bottom:0; z-index:99; font-size:12px; color:#999;}
+.detail .content{ width:710px; overflow:hidden; word-wrap:break-word;}
+
+.classTabs{ margin:10px 0 20px 0;}
+.classTabs ul li{ float:left; width:110px; text-align:center; border:1px solid #a7ce39; height:32px; line-height:32px; margin-right:5px; position:relative;}
+.classTabs ul li a{ display:block; background:#a7ce39; color:#fff; font-size:14px; text-indent:10px; height:32px;}
+.classTabs ul li a em{ display:block; width:22px; height:24px; background:url(../../images/newimg/sprites.png) no-repeat; position:absolute; top:3px; left:8px;}
+.classTabs ul li a.txbg em{ background-position:-208px -25px;}
+.classTabs ul li a.fhbg em{ background-position:-230px -25px;}
+.classTabs ul li a.yhbg em{ background-position:-253px -25px;}
+.classTabs ul li a.qsbg em{ background-position:-276px -25px;}
+.classTabs ul li.current{ border-bottom:1px solid #fff;}
+.classTabs ul li.current a{ background:#fff; color:#666;}
+.classTabs ul li.current a.txbg em{ background-position:-208px 0;}
+.classTabs ul li.current a.fhbg em{ background-position:-230px 0;}
+.classTabs ul li.current a.yhbg em{ background-position:-253px 0;}
+.classTabs ul li.current a.qsbg em{ background-position:-276px 0;}
+
+/*瀑布流*/
+.item_list{position:relative; padding:0 0 50px;}
+.item{ width:230px; overflow:hidden; }
+.item_t{padding:5px 3px;}
+.item_t .img{ margin:0 auto; position:relative; width:230px;}
+.item_t .img a{display:block;}
+.item_t .img a:hover{ background:#000;}
+.item_t .img a:hover img{ filter:alpha(opacity=80); -khtml-opacity:0.8; opacity:0.8; }
+.item_t .title{ padding:8px 0; line-height:18px;}
+.item_t .title h3{ margin-bottom:5px;}
+.item_t .title p{ color:#999;}
+
+/*通栏样式*/
+.contentList{ margin-top:15px;}
+.contentList .caseList{ width:100%;}
+.contentList h2{ font-size:16px; color:#8dae2d; line-height:2; text-indent:10px;}
+.contentList h2 strong{ color:#ccc; font-size:12px; margin-left:12px;}
+.contentList .caseList ul{ float:left; margin-top:5px; overflow:hidden;}
+.contentList .caseList ul li{ width:227px; float:left; display:inline; margin-right:9px; margin-left:9px;}
+.contentList .caseList ul li a:hover{ text-decoration:underline;}
+.contentList .caseList ul li h3{ font-size:14px; line-height:2;}
+.contentList .caseList ul li p{ line-height:150%; color:#999;}
+
+/*footer-toos menu*/
+.sidebar{ width:200px; float:left;}
+.sidebar ul{ float:left; border-right:1px solid #eaeaea; width:180px; background:#f9f9f9; padding-bottom:25px; }
+.sidebar ul li{ position:relative;}
+.sidebar ul li.current .point{ display:block;}
+.sidebar ul li.current a{ font-weight:bold;}
+.sidebar ul li .point{ position:absolute; right:-11px; top:8px; z-index:99; display:none; width:11px; height:18px; background:url(../../images/newimg/sprites.png) no-repeat 0 -77px;}
+.sidebar ul li a{ display:block; border-bottom:1px solid #eaeaea; padding:5px 0; line-height:2; text-align:center;}
+.midCenter{ background:#fff; float:left; display:inline; margin-left:10px; width:530px; min-height:500px;}
+.midCenter h3{ font-size:14px; font-weight:bold; border-bottom:1px solid #eaeaea; line-height:2;}
+.midCenter .friendList,.midCenter .contactList{ margin-top:10px;}
+.midCenter .friendList ul{ float:left;}
+.midCenter .friendList ul li{ float:left; margin-top:20px; display:inline; margin-left:15px;}
+.right{ width:230px; float:right;}
+.right .subpoena{ background:#616161; height:120px; text-align:center; overflow:hidden}
+.right .subpoena p{ line-height:2; height:45px; color:#fff; margin-top:35px;}
+.right .subpoena p em{ color:#a2cf34;}
+.right h4{ font-weight:bold; margin-top:20px;}
+.right p{ line-height:2;}
+.contactList h4{ line-height:2; font-weight:bold; margin-top:10px;}
+.contactList p{ line-height:2; margin-top:10px;}
+
+/*formList*/
+.formList{ margin:20px auto;}
+.formList .list{ float:left; width:700px; margin-top:20px;}
+.formList .list em{ color:red; padding-right:2px;}
+.formList .label{ height:22px; line-height:22px; color: #666666; text-align: right; width: 150px; display:block; float:left;}
+.formList .text,.formList .sele,.formList .area{ padding:4px; border:1px solid; border-color:#aaa #ddd #ddd #aaa; margin-left:10px;}
+.formList .sele{ width: 100px;}
+.formList .textl{ width:320px;}
+.huxing label{ margin-right:10px;}
+.formList .area{ width:450px; height:86px;}
+.formList h4{ height:25px; line-height:25px; border-bottom:1px solid #ddd; padding:20px 0 0;}
+.research{ width:530px; line-height:2;}
+.research label{ margin-right:15px;}
+
+/*footer*/
+#footer{ background:url(../../images/newimg/footerbg.gif) repeat 0 0; height:75px;}
+#footer .footContent{ float:left; color:#ccc; margin:20px;}
+#footer .footContent li{ float:left; line-height:180%; margin-right:10px;}
+#footer .footContent li a{ color:#ccc;}
+#footer .footContent li a:hover{ color:#eee;}
+#copyright{ float:right; text-align:center; margin:15px 15px 0 0;}
+#copyright p{ color:#ccc;}
